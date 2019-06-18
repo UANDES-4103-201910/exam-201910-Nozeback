@@ -8,6 +8,31 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <style>
+                .body{
+                        background-color: grey;
+                }
+                .jumbotron{
+                        background-color: #090923;
+                        color:white;
+                }
+                .tab-content{
+                        border-left:2px solid #ddd;
+                        border-right:2px solid #ddd;
+                        border-bottom:2px solid #ddd;
+                        padding: 5px;
+                }
+                .nav.tabs{
+                        margin-bottom:0;
+                }
+                .container{
+                        background: #350066;
+                }
+                .b1{
+                    white-space: normal;
+                }
+        </style>
+
     <title>Examen Alberto Altermatt</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -17,7 +42,23 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <%= link_to "Z-mobile", '#' , id: 'logo'%>
+        <nav>
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Home",   '#' %></li>
+            <li><%= link_to "Help",   '#' %></li>
+            <li><%= link_to "Log in", '#' %></li>
+            <li><%= link_to "Cart", '#' %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <%= yield %>
+    </div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
