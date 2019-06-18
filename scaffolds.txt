@@ -1,5 +1,5 @@
 rails generate scaffold Product brand:string model:string variant:string price:integer producttype:string shortdesc:text largedesc:text
-rails generate scaffold User firstname:string lastname:string email:string
+rails generate scaffold User firstname:string lastname:string 
 rails generate scaffold Address phone:integer addressline1:string addressline2:string city:string country:string zipcode:integer user:references
 rails generate scaffold Order user:references orderstatus:references total:string
 rails generate scaffold OrderItem product:references order:references quantity:integer
@@ -15,3 +15,10 @@ rails destroy scaffold OrderItem
 rails destroy model OrderStatus 
 
 
+ devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :validatable
+	validates :firstname, presence: true
+	validates :lastname, presence: true
+	validates :email, presence: true
+	has_many :addresses
+	has_many :orders
