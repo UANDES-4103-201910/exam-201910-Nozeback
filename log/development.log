@@ -174,3 +174,135 @@ Migrating to CreateOrderStatuses (20190618133734)
   ↳ bin/rails:9
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["firstname", "perico"], ["lastname", "los palotes"], ["email", "plp@example.com"], ["created_at", "2019-06-18 14:16:59.379955"], ["updated_at", "2019-06-18 14:16:59.379955"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["firstname", "el chavo"], ["lastname", "del ocho"], ["email", "ecdo@example.com"], ["created_at", "2019-06-18 14:16:59.383596"], ["updated_at", "2019-06-18 14:16:59.383596"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["firstname", "rick"], ["lastname", "and morty"], ["email", "ram@example.com"], ["created_at", "2019-06-18 14:16:59.385946"], ["updated_at", "2019-06-18 14:16:59.385946"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("brand", "model", "variant", "price", "shortdesc", "largedesc", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brand", "coca"], ["model", "cola"], ["variant", "normal"], ["price", 1390], ["shortdesc", "bebida de fantasia"], ["largedesc", "Coca-Cola, conocida comúnmente como Coca en muchos países hispanohablantes (en inglés Coke) es una bebida gaseosa y refrescante, vendida a nivel mundial, en tiendas, restaurantes y máquinas expendedoras en más de doscientos países o territorios. Es un producto de The Coca-Cola Company."], ["created_at", "2019-06-18 14:16:59.399907"], ["updated_at", "2019-06-18 14:16:59.399907"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("brand", "model", "variant", "price", "shortdesc", "largedesc", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brand", "alto del carmen"], ["model", "pisco"], ["variant", "azul"], ["price", 5990], ["shortdesc", "destilado nacional"], ["largedesc", "ORIGEN\nNacer desde la tierra, incluso bajo su ras, es uno de los impulsos que nos llevan a volar alto. Podrá ser una paradoja que una raíz enclavada en lo más profundo de un valle origine una perspectiva que se alza por sobre los límites de la cordillera. Pero esa paradoja, no es tal.\n\nTampoco es una casualidad. Porque compartimos la mirada, la altura y la perspectiva del cóndor andino, variantes que se convierten en los valores que nos inspiran para fabricar un pisco de calidad superior.\n\n"], ["created_at", "2019-06-18 14:16:59.402937"], ["updated_at", "2019-06-18 14:16:59.402937"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("brand", "model", "variant", "price", "shortdesc", "largedesc", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brand", "monster"], ["model", "classic"], ["variant", ""], ["price", 1390], ["shortdesc", "bebida energetica "], ["largedesc", "Prueba una de las bebidas más extremas del planeta, Monster Energy®!\n\nEs una mezcla brutal con una combinación ideal de ingredientes con las proporciones exactas para ofrecer el Monster \"Buzz\" que tanto les gusta a nuestros fans de Chile. Monster® tiene un sabor intenso pero suave.\n\nLe encanta a los atletas, surfistas, músicos, skaters, riders, geeks y hipsters...entonces seguro a ti también te encantará.\n\nUnleash The Beast"], ["created_at", "2019-06-18 14:16:59.405376"], ["updated_at", "2019-06-18 14:16:59.405376"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mAddress Create (0.6ms)[0m  [1m[32mINSERT INTO "addresses" ("phone", "addressline1", "addressline2", "city", "country", "zipcode", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["phone", 870490890], ["addressline1", "somwhere"], ["addressline2", "over the rainbow"], ["city", "Santiago"], ["country", "Chile"], ["zipcode", 7821159], ["user_id", 3], ["created_at", "2019-06-18 14:16:59.426823"], ["updated_at", "2019-06-18 14:16:59.426823"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mAddress Create (0.4ms)[0m  [1m[32mINSERT INTO "addresses" ("phone", "addressline1", "addressline2", "city", "country", "zipcode", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["phone", 909032332], ["addressline1", "alla"], ["addressline2", "aqui"], ["city", "Santiago"], ["country", "Chile"], ["zipcode", 7821152], ["user_id", 2], ["created_at", "2019-06-18 14:16:59.429672"], ["updated_at", "2019-06-18 14:16:59.429672"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mAddress Create (0.4ms)[0m  [1m[32mINSERT INTO "addresses" ("phone", "addressline1", "addressline2", "city", "country", "zipcode", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["phone", 999922221], ["addressline1", "los ind, comuna rar"], ["addressline2", "2do "], ["city", "Santiago"], ["country", "Chile"], ["zipcode", 7821153], ["user_id", 1], ["created_at", "2019-06-18 14:16:59.432166"], ["updated_at", "2019-06-18 14:16:59.432166"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[36mOrderStatus Create (0.6ms)[0m  [1m[32mINSERT INTO "order_statuses" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "En progreso"], ["created_at", "2019-06-18 14:16:59.442651"], ["updated_at", "2019-06-18 14:16:59.442651"]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[36mOrderStatus Create (0.3ms)[0m  [1m[32mINSERT INTO "order_statuses" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Hecha"], ["created_at", "2019-06-18 14:16:59.445618"], ["updated_at", "2019-06-18 14:16:59.445618"]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[36mOrderStatus Create (0.4ms)[0m  [1m[32mINSERT INTO "order_statuses" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Enviada"], ["created_at", "2019-06-18 14:16:59.452220"], ["updated_at", "2019-06-18 14:16:59.452220"]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[36mOrderStatus Create (0.3ms)[0m  [1m[32mINSERT INTO "order_statuses" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Cancelada"], ["created_at", "2019-06-18 14:16:59.454823"], ["updated_at", "2019-06-18 14:16:59.454823"]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:41
