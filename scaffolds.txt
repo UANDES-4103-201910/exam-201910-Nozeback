@@ -1,0 +1,15 @@
+rails generate scaffold Product brand:string model:string variant:string price:integer shortdesc:text largedesc:text
+rails generate scaffold User firstname:string lastname:string email:string
+rails generate scaffold Address phone:integer addressline1:string addressline2:string city:string country:string zipcode:integer user:references
+rails generate scaffold Order user:references orderstatus:references total:string
+rails generate scaffold OrderItem product:references order:references quantity:integer
+rails generate model OrderStatus name:string
+
+
+
+rails destroy scaffold Product 
+rails destroy scaffold User 
+rails destroy scaffold Address 
+rails destroy scaffold Order 
+rails destroy scaffold OrderItem 
+rails destroy model OrderStatus 
