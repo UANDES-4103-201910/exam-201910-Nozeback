@@ -1,4 +1,5 @@
 class Order < ApplicationRecord
-  belongs_to :user
-  belongs_to :orderstatus
+	has_many :order_items
+  	belongs_to :user
+  	belongs_to :orderstatus
 end

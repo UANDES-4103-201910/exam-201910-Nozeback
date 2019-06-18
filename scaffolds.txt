@@ -5,7 +5,7 @@ rails generate scaffold Order user:references orderstatus:references total:strin
 rails generate scaffold OrderItem product:references order:references quantity:integer
 rails generate model OrderStatus name:string
 
-
+rails generate controller Home index
 
 rails destroy scaffold Product 
 rails destroy scaffold User 
