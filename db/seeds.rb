@@ -12,12 +12,12 @@ for u in users do
  	u.save!
  end
 
-products = Product.create([{brand:'coca',model:'cola',variant:'normal',price: "1390",shortdesc: 'bebida de fantasia',largedesc:'Coca-Cola, conocida comúnmente como Coca en muchos países hispanohablantes (en inglés Coke) es una bebida gaseosa y refrescante, vendida a nivel mundial, en tiendas, restaurantes y máquinas expendedoras en más de doscientos países o territorios. Es un producto de The Coca-Cola Company.' },{brand:'alto del carmen',model:'pisco',variant:'azul',price: "5990",shortdesc: 'destilado nacional',largedesc:'ORIGEN
+products = Product.create([{brand:'coca',model:'cola',variant:'normal',price: "1390",producttype:'babida de fantasia',shortdesc: 'bebida de fantasia',largedesc:'Coca-Cola, conocida comúnmente como Coca en muchos países hispanohablantes (en inglés Coke) es una bebida gaseosa y refrescante, vendida a nivel mundial, en tiendas, restaurantes y máquinas expendedoras en más de doscientos países o territorios. Es un producto de The Coca-Cola Company.' }, {brand:'alto del carmen', model:'pisco',variant:'azul',price: "5990",producttype:'bebida alcoholica',shortdesc: 'destilado nacional',largedesc:'ORIGEN
 Nacer desde la tierra, incluso bajo su ras, es uno de los impulsos que nos llevan a volar alto. Podrá ser una paradoja que una raíz enclavada en lo más profundo de un valle origine una perspectiva que se alza por sobre los límites de la cordillera. Pero esa paradoja, no es tal.
 
 Tampoco es una casualidad. Porque compartimos la mirada, la altura y la perspectiva del cóndor andino, variantes que se convierten en los valores que nos inspiran para fabricar un pisco de calidad superior.
 
-' },{brand:'monster',model:'classic',variant:'',price: "1390",shortdesc: 'bebida energetica ',largedesc:'Prueba una de las bebidas más extremas del planeta, Monster Energy®!
+' },{brand:'monster',model:'classic',variant:'',price: "1390",producttype:'bebida energetica',shortdesc: 'bebida energetica ',largedesc:'Prueba una de las bebidas más extremas del planeta, Monster Energy®!
 
 Es una mezcla brutal con una combinación ideal de ingredientes con las proporciones exactas para ofrecer el Monster "Buzz" que tanto les gusta a nuestros fans de Chile. Monster® tiene un sabor intenso pero suave.
 

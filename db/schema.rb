@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_18_133734) do
+ActiveRecord::Schema.define(version: 2019_06_18_152618) do
 
   create_table "addresses", force: :cascade do |t|
     t.integer "phone"
@@ -56,6 +56,7 @@ ActiveRecord::Schema.define(version: 2019_06_18_133734) do
     t.string "model"
     t.string "variant"
     t.integer "price"
+    t.string "producttype"
     t.text "shortdesc"
     t.text "largedesc"
     t.datetime "created_at", null: false

@@ -18,6 +18,7 @@ class ProductsTest < ApplicationSystemTestCase
     fill_in "Largedesc", with: @product.largedesc
     fill_in "Model", with: @product.model
     fill_in "Price", with: @product.price
+    fill_in "Producttype", with: @product.producttype
     fill_in "Shortdesc", with: @product.shortdesc
     fill_in "Variant", with: @product.variant
     click_on "Create Product"
@@ -34,6 +35,7 @@ class ProductsTest < ApplicationSystemTestCase
     fill_in "Largedesc", with: @product.largedesc
     fill_in "Model", with: @product.model
     fill_in "Price", with: @product.price
+    fill_in "Producttype", with: @product.producttype
     fill_in "Shortdesc", with: @product.shortdesc
     fill_in "Variant", with: @product.variant
     click_on "Update Product"

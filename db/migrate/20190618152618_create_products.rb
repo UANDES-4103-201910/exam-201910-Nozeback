@@ -5,6 +5,7 @@ class CreateProducts < ActiveRecord::Migration[5.2]
       t.string :model
       t.string :variant
       t.integer :price
+      t.string :producttype
       t.text :shortdesc
       t.text :largedesc
 

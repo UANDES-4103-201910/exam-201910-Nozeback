@@ -5,6 +5,7 @@ one:
   model: MyString
   variant: MyString
   price: 1
+  producttype: MyString
   shortdesc: MyText
   largedesc: MyText
 
@@ -13,5 +14,6 @@ two:
   model: MyString
   variant: MyString
   price: 1
+  producttype: MyString
   shortdesc: MyText
   largedesc: MyText
